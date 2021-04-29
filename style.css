@@ -1,0 +1,167 @@
+body {
+  background-color: rgb(250,250,250);
+  color: #fea82f;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: #6F4952;
+  font-family: 'Unica One', cursive;
+  font-weight: 1000;
+  font-size: 40px;
+}
+
+h2 {
+  color: #FEA82F;
+  font-family: 'Unica One', cursive;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #6F4952;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;$
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+p {
+  color: #6F4952;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+.p1 {
+  color: #6F4952;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+ul {
+  color: #6F4952;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.aptitudes {
+  color: #6F4952;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  }
+
+
+#profil {
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border: solid 4px #FEA82F;
+  border-radius: 50%;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%)
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+a.bouton {
+  color: white;
+  background: #6F4952;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+}
+a.bouton:hover {
+  color: white;
+  background: #FEA82F;
+  text-decoration: none;
+}
+
+.card-white {
+  background:white;
+  padding: 40px;
+  margin: 30px auto;
+  border-radius: 4px;
+  border-left: solid 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+}
+
+div {
+  display: block;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.souligne {
+  border-bottom: 3px solid #FEA82F;
+  margin-right: 30px;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline i{
+  font-size: 50px;
+  color:#6F4952;
+}
+
+.list-inline i:hover{
+  color: #FEA82F;
+}
+
+.list-inline li{
+  display:inline;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 900px;
+  margin:40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+    }
+  }
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    }
+  }
+
+}
+
+.pbullet {
+  text-align: justify;
+}
+
+.pbullet span.gauche {
+  float: left;
+  }
+
+.pbullet span.droite {
+  float: right;
+  margin-right: 30px;
+  }
+
